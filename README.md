@@ -1,23 +1,13 @@
 # 📊 行业研究方法论 / Industry Research Methodology
 
-<div align="center">
+> 🌏 **English version: [README.en.md](./README.en.md)**
 
-**一套可执行的行业研究框架，帮助任何人从零散信息快速建立结构化的行业认知体系。**
-
-**A practical industry research framework that helps anyone build structured domain knowledge from scattered information.**
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](CHANGELOG.md)
-[![SKILL.md](https://img.shields.io/badge/Agent%20Skill-SKILL.md-green)](SKILL.md)
-[![GitHub Stars](https://img.shields.io/github/stars/hyt315/industry-research?style=social)](https://github.com/hyt315/industry-research/stargazers)
-
-[English](#english) | [中文](#中文)
-
-</div>
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
+[![Version](https://img.shields.io/badge/version-1.0.0-green.svg?style=flat-square)](CHANGELOG.md)
+[![SKILL.md](https://img.shields.io/badge/Agent%20Skill-SKILL.md-green.svg?style=flat-square)](SKILL.md)
+[![GitHub Stars](https://img.shields.io/github/stars/hyt315/industry-research?style=flat-square&color=yellow)](https://github.com/hyt315/industry-research/stargazers)
 
 ---
-
-<a name="中文"></a>
 
 ## 📖 这是什么？
 
@@ -35,6 +25,33 @@
 | 🛡️ **认知防护机制** | 12 种认知偏差自动检测 + 红队自挑战 |
 | 🎯 **3 种执行模式** | 全自动、分步引导、整理已有资料 |
 | 📝 **可迭代输出** | 生成 Obsidian 兼容的 Markdown 知识库，能持续更新 |
+
+---
+
+## 🚀 快速开始
+
+### 方式一：AI Agent 直接加载（推荐）
+
+本仓库提供 `SKILL.md`，兼容主流 AI Agent 平台（Claude Code、Cursor 等）。
+
+**一行命令安装（WorkBuddy）**：
+```bash
+git clone https://github.com/hyt315/industry-research.git ~/.workbuddy/skills/industry-research
+```
+
+**手动安装**：
+1. 下载本仓库
+2. 将 `SKILL.md` 和 `references/` 目录放入你的 AI Agent 的 skills 目录
+3. 配置 Obsidian MCP（可选）
+
+详见 [附录 A：环境配置](SKILL.md#附录-a环境配置)。
+
+### 方式二：手动执行
+
+1. 阅读 [SKILL.md](SKILL.md) 了解完整流程
+2. 按 Phase 1-5 逐步执行
+3. 在 Obsidian（或任意 Markdown 编辑器）中手动创建笔记
+4. 参考 [references/](references/) 中的分析框架和输出标准
 
 ---
 
@@ -60,33 +77,13 @@
 
 ---
 
-## 🚀 快速开始
-
-### 方式一：AI Agent 直接加载（推荐）
-
-本仓库提供 `SKILL.md`，兼容主流 AI Agent 平台（Claude Code、Cursor 等）。
-
-```bash
-# 在对应的 skills 目录中放入本仓库的内容，AI Agent 会自动识别
-```
-
-配置 Obsidian MCP 后可直接生成研究知识库。详见 [附录 A：环境配置](SKILL.md#附录-a环境配置)。
-
-### 方式二：手动执行
-
-1. 阅读 [SKILL.md](SKILL.md) 了解完整流程
-2. 按 Phase 1-5 逐步执行
-3. 在 Obsidian（或任意 Markdown 编辑器）中手动创建笔记
-4. 参考 [references/](references/) 中的分析框架和输出标准
-
----
-
 ## 📁 文件结构
 
 ```
 industry-research/
 ├── SKILL.md                       # 核心方法论（可直接作为 AI Agent Skill 加载）
-├── README.md                      # 本文件
+├── README.md                      # 本文件（中文）
+├── README.en.md                   # 英文版
 ├── LICENSE                        # MIT 协议
 ├── CHANGELOG.md                   # 版本变更记录
 ├── CONTRIBUTING.md                # 贡献指南
@@ -131,124 +128,5 @@ industry-research/
 ---
 
 ## 📄 许可
-
-[MIT](LICENSE)
-
----
-
-<a name="english"></a>
-
-## 📖 What is this?
-
-When you need to understand a new industry, the biggest obstacle isn't "finding information" — it's **not knowing which dimensions to examine, how to organize the information, and how to judge which data is reliable**.
-
-This methodology solves that problem by providing a complete industry research framework that helps you quickly build a structured industry knowledge system from scattered information.
-
-### ✨ Core Features
-
-| Feature | Description |
-|---------|-------------|
-| 🔄 **5-Phase Research Workflow** | Requirements → Material Processing → Skeleton Generation → Layered Filling → Output Delivery |
-| 📊 **Data Credibility Tiers (L1-L5)** | From AI-generated (L1) to user-supplied (L5), every data point has a credibility label |
-| 🧠 **10 Analysis Frameworks** | PEST, Porter's Five Forces, Moat Theory, Crossing the Chasm... matched by module as needed |
-| 🛡️ **Cognitive Defense Mechanism** | 12 cognitive bias auto-detection + red team self-challenge |
-| 🎯 **3 Execution Modes** | Fully automatic, step-by-step guided, organize existing materials |
-| 📝 **Iterative Output** | Generates Obsidian-compatible Markdown knowledge base that can be continuously updated |
-
----
-
-## 💡 Core Philosophy
-
-1. **Don't pretend to know everything**: Precise data is gradually supplemented by users, AI handles framework construction
-2. **Value lies in structure**: "Which dimensions to examine when researching an industry" is itself knowledge
-3. **Traceable sources**: Every data point is labeled with collection date, source type, and credibility level
-
----
-
-## 📊 Data Credibility Tiers
-
-This is the core innovation of this methodology:
-
-| Tier | Label | Meaning | Example |
-|------|-------|---------|--------|
-| L1 | `✅ L1-Skeleton` | Industry structure, classification system | "Weight loss supplements are divided into fat burners, appetite suppressants, and GLP-1 support" |
-| L2 | `✅ L2-Public` | Brand names, official websites, public reports | "Goli website https://goligummies.com" |
-| L3 | `⚠️ L3-Community` | User pain points, community discussions | "Reddit user feedback: 'Took it for 3 months, zero change'" |
-| L4 | `⚠️ L4-Inference` | AI judgment based on available information | "Market size approximately $1.5 billion (comprehensive estimate, needs verification)" |
-| L5 | `🔲 L5-Pending` | Precise data to be supplemented by users | "Brand revenue (suggested source: Crunchbase)" |
-
----
-
-## 🚀 Quick Start
-
-### Option 1: AI Agent Direct Loading (Recommended)
-
-This repository provides `SKILL.md`, compatible with mainstream AI Agent platforms (Claude Code, Cursor, etc.).
-
-```bash
-# Place this repository's content in the corresponding skills directory, AI Agent will automatically recognize it
-```
-
-Configure Obsidian MCP to directly generate research knowledge bases. See [Appendix A: Environment Configuration](SKILL.md#appendix-a-environment-configuration).
-
-### Option 2: Manual Execution
-
-1. Read [SKILL.md](SKILL.md) to understand the complete workflow
-2. Execute step by step following Phase 1-5
-3. Manually create notes in Obsidian (or any Markdown editor)
-4. Refer to analysis frameworks and output standards in [references/](references/)
-
----
-
-## 📁 File Structure
-
-```
-industry-research/
-├── SKILL.md                       # Core methodology (can be loaded directly as AI Agent Skill)
-├── README.md                      # This file
-├── LICENSE                        # MIT License
-├── CHANGELOG.md                   # Version change log
-├── CONTRIBUTING.md                # Contributing guide
-├── CODE_OF_CONDUCT.md             # Code of Conduct (Contributor Covenant 2.1)
-├── SECURITY.md                    # Security policy
-├── .gitignore
-├── .github/
-│   ├── ISSUE_TEMPLATE/
-│   │   ├── bug_report.yml         # Bug report template (YAML form)
-│   │   ├── feature_request.yml    # Feature request template (YAML form)
-│   │   └── config.yml             # Template selector configuration
-│   └── pull_request_template.md   # PR template
-└── references/                    # Reference files
-    ├── frameworks.md              # 10 analysis frameworks detailed
-    ├── cognitive-traps.md         # Cognitive bias detection checklist
-    ├── output-standards.md        # Output quality standards + end-to-end examples
-    └── mcp-setup.md               # Obsidian MCP configuration guide
-```
-
----
-
-## 📚 End-to-End Example
-
-Using the **US Weight Loss Supplement Industry** as an example, `references/output-standards.md` provides complete research output samples:
-
-- 🏢 Brand files (Goli Nutrition example)
-- 📦 Product classification (Fat Burner analysis)
-- 👥 User pain points (Reddit high-frequency feedback summary)
-- 📺 Content ecosystem (top creator map)
-- 🔍 Keyword library (dual-dimensional classification by platform and intent)
-
-See: [references/output-standards.md](references/output-standards.md)
-
----
-
-## 🤝 Contributing
-
-Welcome to contribute new analysis frameworks, industry templates, and improvement suggestions.
-
-See [CONTRIBUTING.md](CONTRIBUTING.md).
-
----
-
-## 📄 License
 
 [MIT](LICENSE)
