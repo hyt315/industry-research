@@ -2,10 +2,15 @@
 
 > 🌏 **English version: [README.en.md](./README.en.md)**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.0-green.svg?style=flat-square)](CHANGELOG.md)
-[![SKILL.md](https://img.shields.io/badge/Agent%20Skill-SKILL.md-green.svg?style=flat-square)](SKILL.md)
-[![GitHub Stars](https://img.shields.io/github/stars/hyt315/industry-research?style=flat-square&color=yellow)](https://github.com/hyt315/industry-research/stargazers)
+<p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" />
+  <img src="https://img.shields.io/badge/version-1.0.0-green.svg?style=flat-square" />
+  <img src="https://img.shields.io/badge/Agent%20Skill-SKILL.md-green.svg?style=flat-square" />
+  <img src="https://img.shields.io/badge/Platform-Claude%20Code-orange?style=flat-square" />
+  <img src="https://img.shields.io/badge/Platform-Cursor-brightgreen?style=flat-square" />
+  <img src="https://img.shields.io/badge/Language-Chinese--first-red?style=flat-square" />
+  <img src="https://img.shields.io/github/stars/hyt315/industry-research?style=flat-square&color=yellow" />
+</p>
 
 ---
 
@@ -15,7 +20,9 @@
 
 这套方法论解决的就是这个问题——提供一套完整的行业研究框架，让你从零散信息快速建立结构化的行业认知体系。
 
-### ✨ 核心特性
+---
+
+## ✨ 核心特性
 
 | 特性 | 说明 |
 |------|------|
@@ -32,12 +39,15 @@
 
 ### 方式一：AI Agent 直接加载（推荐）
 
-本仓库提供 `SKILL.md`，兼容主流 AI Agent 平台（Claude Code、Cursor 等）。
+本仓库提供 `SKILL.md`，兼容主流 AI Agent 平台。
 
-**一行命令安装（WorkBuddy）**：
-```bash
-git clone https://github.com/hyt315/industry-research.git ~/.workbuddy/skills/industry-research
-```
+**一行命令安装**：
+
+| 平台 | 安装命令 |
+|------|----------|
+| **Claude Code** | `git clone https://github.com/hyt315/industry-research.git ~/.claude/skills/industry-research` |
+| **Codex** | `git clone https://github.com/hyt315/industry-research.git ~/.codex/skills/industry-research` |
+| **Cursor** | `git clone https://github.com/hyt315/industry-research.git .cursor/skills/industry-research` |
 
 **手动安装**：
 1. 下载本仓库
