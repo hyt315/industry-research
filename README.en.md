@@ -2,10 +2,15 @@
 
 > 🌏 **中文版: [README.md](./README.md)**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.0-green.svg?style=flat-square)](CHANGELOG.md)
-[![SKILL.md](https://img.shields.io/badge/Agent%20Skill-SKILL.md-green.svg?style=flat-square)](SKILL.md)
-[![GitHub Stars](https://img.shields.io/github/stars/hyt315/industry-research?style=flat-square&color=yellow)](https://github.com/hyt315/industry-research/stargazers)
+<p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" />
+  <img src="https://img.shields.io/badge/version-1.0.0-green.svg?style=flat-square" />
+  <img src="https://img.shields.io/badge/Agent%20Skill-SKILL.md-green.svg?style=flat-square" />
+  <img src="https://img.shields.io/badge/Platform-Claude%20Code-orange?style=flat-square" />
+  <img src="https://img.shields.io/badge/Platform-Cursor-brightgreen?style=flat-square" />
+  <img src="https://img.shields.io/badge/Language-Chinese--first-red?style=flat-square" />
+  <img src="https://img.shields.io/github/stars/hyt315/industry-research?style=flat-square&color=yellow" />
+</p>
 
 ---
 
@@ -15,7 +20,9 @@ When you need to understand a new industry, the biggest obstacle isn't "finding 
 
 This methodology solves that problem by providing a complete industry research framework that helps you quickly build a structured industry knowledge system from scattered information.
 
-### ✨ Core Features
+---
+
+## ✨ Core Features
 
 | Feature | Description |
 |---------|-------------|
@@ -32,12 +39,15 @@ This methodology solves that problem by providing a complete industry research f
 
 ### Option 1: AI Agent Direct Loading (Recommended)
 
-This repository provides `SKILL.md`, compatible with mainstream AI Agent platforms (Claude Code, Cursor, etc.).
+This repository provides `SKILL.md`, compatible with mainstream AI Agent platforms.
 
-**One-line install (WorkBuddy)**:
-```bash
-git clone https://github.com/hyt315/industry-research.git ~/.workbuddy/skills/industry-research
-```
+**One-line install**:
+
+| Platform | Install Command |
+|----------|-----------------|
+| **Claude Code** | `git clone https://github.com/hyt315/industry-research.git ~/.claude/skills/industry-research` |
+| **Codex** | `git clone https://github.com/hyt315/industry-research.git ~/.codex/skills/industry-research` |
+| **Cursor** | `git clone https://github.com/hyt315/industry-research.git .cursor/skills/industry-research` |
 
 **Manual install**:
 1. Download this repository
@@ -68,7 +78,7 @@ See [Appendix A: Environment Configuration](SKILL.md#appendix-a-environment-conf
 This is the core innovation of this methodology:
 
 | Tier | Label | Meaning | Example |
-|------|-------|---------|--------|
+|------|-------|---------|---------|
 | L1 | `✅ L1-Skeleton` | Industry structure, classification system | "Weight loss supplements are divided into fat burners, appetite suppressants, and GLP-1 support" |
 | L2 | `✅ L2-Public` | Brand names, official websites, public reports | "Goli website https://goligummies.com" |
 | L3 | `⚠️ L3-Community` | User pain points, community discussions | "Reddit user feedback: 'Took it for 3 months, zero change'" |
