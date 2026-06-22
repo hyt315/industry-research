@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" />
-  <img src="https://img.shields.io/badge/version-1.0.0-green.svg?style=flat-square" />
+  <img src="https://img.shields.io/badge/version-1.0.1-green.svg?style=flat-square" />
   <img src="https://img.shields.io/badge/Agent%20Skill-SKILL.md-green.svg?style=flat-square" />
   <img src="https://img.shields.io/badge/Platform-Claude%20Code-orange?style=flat-square" />
   <img src="https://img.shields.io/badge/Platform-Cursor-brightgreen?style=flat-square" />

@@ -1,7 +1,32 @@
-# Security Policy
+# 安全策略 / Security Policy
 
-## Reporting a Vulnerability
+## 项目性质说明
 
-This project is a documentation/methodology resource and does not contain executable code.
+本项目是文档型/方法论项目，不包含可执行代码。不存在运行时依赖、网络服务或传统意义上的攻击面。
 
-If you find any issues with the content, please open a GitHub Issue.
+## 报告内容问题
+
+如果你发现以下类型的问题，请通过 GitHub Issue 报告：
+
+- **方法论错误**：分析框架描述不准确或存在误导性内容
+- **数据可信度问题**：L1-L5 分层标注不当或遗漏
+- **认知偏差引入**：内容中存在未经标注的认知偏差或逻辑谬误
+- **隐私泄露**：输出示例中包含可识别的真实个人信息
+
+## 报告流程
+
+1. 在仓库中创建 Issue，选择对应的模板
+2. 清晰描述问题的位置、内容和潜在影响
+3. 如果涉及敏感信息，在 Issue 中简要描述后联系维护者
+
+## 响应时间
+
+- 方法论准确性问题：一周内响应
+- 隐私相关问题：尽快响应
+
+## 支持的版本
+
+| 版本 | 支持状态 |
+|------|----------|
+| 最新 main 分支 | ✅ 接受报告 |
+| 历史版本 | ❌ 不再维护 |
