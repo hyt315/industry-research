@@ -1,18 +1,26 @@
 # 📊 行业研究方法论 / Industry Research Methodology
 
-> 🌏 **English version: [README.en.md](./README.en.md)**
+<div align="center">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" />
-  <img src="https://img.shields.io/badge/version-1.0.1-green.svg?style=flat-square" />
-  <img src="https://img.shields.io/badge/Agent%20Skill-SKILL.md-green.svg?style=flat-square" />
-  <img src="https://img.shields.io/badge/Platform-Claude%20Code-orange?style=flat-square" />
-  <img src="https://img.shields.io/badge/Platform-Cursor-brightgreen?style=flat-square" />
-  <img src="https://img.shields.io/badge/Language-Chinese--first-red?style=flat-square" />
-  <img src="https://img.shields.io/github/stars/hyt315/industry-research?style=flat-square&color=yellow" />
-</p>
+**AI 行业研究框架：从零散信息建立结构化认知体系，L1-L5 数据可信度分层 + 10 个分析模型 + 认知偏差检测**
+
+**A practical industry research framework with L1-L5 data credibility system, 10 analysis models, and cognitive bias detection**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/version-1.0.2-green.svg)]()
+[![SKILL.md](https://img.shields.io/badge/Agent%20Skill-SKILL.md-green)](SKILL.md)
+[![Platform](https://img.shields.io/badge/Platform-Claude%20Code-orange)]()
+[![Platform](https://img.shields.io/badge/Platform-Cursor-brightgreen)]()
+[![Language](https://img.shields.io/badge/Language-Chinese--first-red)]()
+[![GitHub Stars](https://img.shields.io/github/stars/hyt315/industry-research?style=social)](https://github.com/hyt315/industry-research/stargazers)
+
+[English](#english) | [中文](#中文)
+
+</div>
 
 ---
+
+<a name="中文"></a>
 
 ## 📖 这是什么？
 
@@ -65,6 +73,18 @@
 
 ---
 
+## 📥 下载 / Download
+
+| 方式 | 命令 / 链接 |
+|------|------------|
+| **HTTPS** | `git clone https://github.com/hyt315/industry-research.git` |
+| **SSH** | `git clone git@github.com:hyt315/industry-research.git` |
+| **GitHub CLI** | `gh repo clone hyt315/industry-research` |
+| **ZIP 源码** | [下载 ZIP](https://github.com/hyt315/industry-research/archive/refs/heads/main.zip) |
+| **Tar 源码** | [下载 Tar](https://github.com/hyt315/industry-research/archive/refs/heads/main.tar.gz) |
+
+---
+
 ## 💡 核心理念
 
 1. **不假装全能**：精确数据由用户逐步补充，AI 负责框架搭建
@@ -92,8 +112,7 @@
 ```
 industry-research/
 ├── SKILL.md                       # 核心方法论（可直接作为 AI Agent Skill 加载）
-├── README.md                      # 本文件（中文）
-├── README.en.md                   # 英文版
+├── README.md                      # 本文件
 ├── LICENSE                        # MIT 协议
 ├── CHANGELOG.md                   # 版本变更记录
 ├── CONTRIBUTING.md                # 贡献指南
@@ -138,5 +157,111 @@ industry-research/
 ---
 
 ## 📄 许可
+
+[MIT](LICENSE)
+
+---
+
+<a name="english"></a>
+
+## 📖 What is this?
+
+When you need to understand a new industry, the biggest obstacle isn't "finding information" — it's **not knowing which dimensions to examine, how to organize the information, and how to judge which data is reliable**.
+
+This methodology solves that problem by providing a complete industry research framework that helps you quickly build a structured industry knowledge system from scattered information.
+
+---
+
+## ✨ Core Features
+
+| Feature | Description |
+|---------|-------------|
+| 🔄 **5-Phase Research Workflow** | Requirements → Material Processing → Skeleton Generation → Layered Filling → Output Delivery |
+| 📊 **Data Credibility Tiers (L1-L5)** | From AI-generated (L1) to user-supplied (L5), every data point has a credibility label |
+| 🧠 **10 Analysis Frameworks** | PEST, Porter's Five Forces, Moat Theory, Crossing the Chasm... matched by module as needed |
+| 🛡️ **Cognitive Defense Mechanism** | 12 cognitive bias auto-detection + red team self-challenge |
+| 🎯 **3 Execution Modes** | Fully automatic, step-by-step guided, organize existing materials |
+| 📝 **Iterative Output** | Generates Obsidian-compatible Markdown knowledge base that can be continuously updated |
+
+---
+
+## 🚀 Quick Start
+
+### Option 1: AI Agent Direct Loading (Recommended)
+
+This repository provides `SKILL.md`, compatible with mainstream AI Agent platforms.
+
+**One-line install**:
+
+| Platform | Install Command |
+|----------|-----------------|
+| **Claude Code** | `git clone https://github.com/hyt315/industry-research.git ~/.claude/skills/industry-research` |
+| **Codex** | `git clone https://github.com/hyt315/industry-research.git ~/.codex/skills/industry-research` |
+| **Cursor** | `git clone https://github.com/hyt315/industry-research.git .cursor/skills/industry-research` |
+
+**Manual install**:
+1. Download this repository
+2. Place `SKILL.md` and `references/` directory into your AI Agent's skills directory
+3. Configure Obsidian MCP (optional)
+
+### Option 2: Manual Execution
+
+1. Read [SKILL.md](SKILL.md) to understand the complete workflow
+2. Execute step by step following Phase 1-5
+3. Manually create notes in Obsidian (or any Markdown editor)
+4. Refer to analysis frameworks and output standards in [references/](references/)
+
+---
+
+## 📁 File Structure
+
+```
+industry-research/
+├── SKILL.md                       # Core methodology (can be loaded directly as AI Agent Skill)
+├── README.md                      # This file
+├── LICENSE                        # MIT License
+├── CHANGELOG.md                   # Version change log
+├── CONTRIBUTING.md                # Contributing guide
+├── CODE_OF_CONDUCT.md             # Code of Conduct (Contributor Covenant 2.1)
+├── SECURITY.md                    # Security policy
+├── .gitignore
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.yml         # Bug report template (YAML form)
+│   │   ├── feature_request.yml    # Feature request template (YAML form)
+│   │   └── config.yml             # Template selector configuration
+│   └── pull_request_template.md   # PR template
+└── references/                    # Reference files
+    ├── frameworks.md              # 10 analysis frameworks detailed
+    ├── cognitive-traps.md         # Cognitive bias detection checklist
+    ├── output-standards.md        # Output quality standards + end-to-end examples
+    └── mcp-setup.md               # Obsidian MCP configuration guide
+```
+
+---
+
+## 📚 End-to-End Example
+
+Using the **US Weight Loss Supplement Industry** as an example, `references/output-standards.md` provides complete research output samples:
+
+- 🏢 Brand files (Goli Nutrition example)
+- 📦 Product classification (Fat Burner analysis)
+- 👥 User pain points (Reddit high-frequency feedback summary)
+- 📺 Content ecosystem (top creator map)
+- 🔍 Keyword library (dual-dimensional classification by platform and intent)
+
+See: [references/output-standards.md](references/output-standards.md)
+
+---
+
+## 🤝 Contributing
+
+Welcome to contribute new analysis frameworks, industry templates, and improvement suggestions.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+---
+
+## 📄 License
 
 [MIT](LICENSE)
