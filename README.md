@@ -7,14 +7,14 @@
 **A practical industry research framework with L1-L5 data credibility system, 10 analysis models, and cognitive bias detection**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.2-green.svg)]()
+[![Version](https://img.shields.io/badge/version-1.0.3-green.svg)]()
 [![SKILL.md](https://img.shields.io/badge/Agent%20Skill-SKILL.md-green)](SKILL.md)
 [![Platform](https://img.shields.io/badge/Platform-Claude%20Code-orange)]()
 [![Platform](https://img.shields.io/badge/Platform-Cursor-brightgreen)]()
 [![Language](https://img.shields.io/badge/Language-Chinese--first-red)]()
 [![GitHub Stars](https://img.shields.io/github/stars/hyt315/industry-research?style=social)](https://github.com/hyt315/industry-research/stargazers)
 
-[English](#english) | [中文](#中文)
+[English](#user-content-english) | [中文](#user-content-中文)
 
 </div>
 
